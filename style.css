@@ -33,12 +33,26 @@ body {
 
 #main-doc {
   margin-left: 300px;
+  padding: 20px;
+}
+
+.main-section ul li {
+  margin-top: 8px;
+}
+
+pre {
+  padding: 8px;
+  background-color: #eeeeee;
 }
 
 @media (max-width: 815px) {
   #navbar {
     position: static;
     width: 100%;
+  }
+
+  #navbar header {
+    text-align: center;
   }
 
   #navbar ul li:last-child {
